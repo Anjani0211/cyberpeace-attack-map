@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: cyberpeace-attack-map
+    runtime: python
+    plan: free
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -u run_platform.py
+    healthCheckPath: /
+    envVars:
+      - key: MEMORY_BUS
+        value: "1"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYTHONPATH
+        value: "."

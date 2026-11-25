@@ -1,0 +1,13 @@
+myenv-test/
+logs/
+__pycache__/
+*.pyc
+.Python
+.venv/
+venv/
+.env
+DataServer/test-syslog.log
+*.log
+.DS_Store
+.idea/
+.vscode/

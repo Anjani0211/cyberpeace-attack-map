@@ -1,0 +1,4 @@
+maxminddb>=2.6.0
+redis>=5.0.0
+tornado>=6.4.0
+pytz>=2024.1
